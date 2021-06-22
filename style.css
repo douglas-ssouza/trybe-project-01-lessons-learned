@@ -9,7 +9,11 @@ body {
 }
 
 img {
+    margin-left: 50%;
     margin-top: 150px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px black;
 }
 
 #cabecalho {
@@ -18,6 +22,7 @@ img {
     width: 100%;
     background-color: green;
     z-index: 1;
+    color: white;
 }
 
 #cabecalho h1 {
@@ -26,6 +31,7 @@ img {
 
 #cabecalho ul{
     list-style-type: none;
+    text-align: center;
 }
 
 #cabecalho ul li {
@@ -33,8 +39,33 @@ img {
     padding: 0px 20px;
 }
 
+#cabecalho a {
+    color: white;
+    text-decoration: none;
+}
+
+section, footer {
+    background-color: rgb(169, 242, 153);
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px rgb(169, 242, 153);
+    padding: 2%;
+}
+
+.habilidades {
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.habilidades:first-of-type{
+    margin-left: 22%;
+    margin-right: 7%;
+}
+
 main {
     position: relative;
+    margin: auto;
+    width: 90%;
 }
 
 .lado-esquerdo, .lado-direito {
@@ -52,8 +83,13 @@ main {
     right: 0;
 }
 
+#tabela h2{
+    text-align: center;
+}
+
 table {
     border-collapse: collapse;
+    margin: auto;
 }
 
 td, th {
@@ -67,5 +103,8 @@ a {
 }
 
 footer {
-    margin-top: 700px;
+    margin-top: 65%;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
 }
