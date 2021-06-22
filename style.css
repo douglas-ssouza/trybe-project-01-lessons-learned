@@ -1,10 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -19,4 +17,12 @@ table {
 td, th {
     border: 1px solid black;
     padding: 5px;
+}
+
+a {
+    color: green;
+}
+
+footer {
+    margin-top: 50px;
 }
