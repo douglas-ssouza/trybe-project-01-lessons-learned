@@ -3,11 +3,53 @@ body {
     font-size: 20px;
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin-top: 150px;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+    width: 100%;
+    background-color: green;
+    z-index: 1;
+}
+
+#cabecalho h1 {
+    text-align: center;
+}
+
+#cabecalho ul{
+    list-style-type: none;
+}
+
+#cabecalho ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+main {
+    position: relative;
+}
+
+.lado-esquerdo, .lado-direito {
+    display: inline-block;
+    padding: 2%;
+    position: absolute;
+}
+
+.lado-esquerdo {
+    width: 70%;
+}
+
+.lado-direito {
+    width: 20%;
+    right: 0;
 }
 
 table {
@@ -19,24 +61,11 @@ td, th {
     padding: 5px;
 }
 
-
-.lado-esquerdo, .lado-direito {
-    display: inline-block;
-    padding: 2%;
-}
-
-.lado-esquerdo {
-    width: 70%;
-}
-
-.lado-direito {
-    width: 20%;
-}
-
 a {
     color: green;
+    margin-top: 20%;
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 700px;
 }
