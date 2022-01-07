@@ -7,7 +7,7 @@
 	<title>Projeto - Lessons Learned</title>
 </head>
 <body>
-	<header id="cabecalho">
+	<header class="cabecalho">
 		<h1 id="titulo">Lessons Learned</h1>
 		<nav>
 			<ul>
@@ -23,39 +23,45 @@
 			</ul>
 		</nav>
 	</header>
-	<img src="./images/minha_foto.jpg" alt="Foto de perfil" id="minha_foto">
-	<br>
-	<section class="habilidades">
-		<h2>Lições aprendidas</h2>
-		<ol id="licoes_aprendidas">
-			<li>Unix</li>
-			<li>Bash</li>
-			<li>Git</li>
-			<li>GitHub</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Inteligência emocional</li>
-			<li>Comunicação</li>
-			<li>Colaboração</li>
-			<li>Pensamento Crítico</li>
-		</ol>
+
+	<section class="profile">
+		<img src="./images/minha_foto.jpg" alt="Foto de perfil" class="photo">
+		
+		<div>
+			<section class="habilidades">
+				<h2>Lições aprendidas</h2>
+				<ol id="licoes_aprendidas">
+					<li>Unix</li>
+					<li>Bash</li>
+					<li>Git</li>
+					<li>GitHub</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Inteligência emocional</li>
+					<li>Comunicação</li>
+					<li>Colaboração</li>
+					<li>Pensamento Crítico</li>
+				</ol>
+			</section>
+			<section class="habilidades">
+				<h2>Lições a aprender</h2>
+				<ul id="licoes_a_aprender">
+					<li>JavaScript</li>
+					<li>React</li>
+					<li>Node</li>
+					<li>Unit Tests</li>
+					<li>DOM</li>
+					<li>Forms</li>
+					<li>CSS Responsivo</li>
+					<li>Ciencia da Computação</li>
+					<li>Criatividade</li>
+					<li>Liderança</li>
+				</ul>
+			</section>
+		</div>
 	</section>
-	<section class="habilidades">
-		<h2>Lições a aprender</h2>
-		<ul id="licoes_a_aprender">
-			<li>JavaScript</li>
-			<li>React</li>
-			<li>Node</li>
-			<li>Unit Tests</li>
-			<li>DOM</li>
-			<li>Forms</li>
-			<li>CSS Responsivo</li>
-			<li>Ciencia da Computação</li>
-			<li>Criatividade</li>
-			<li>Liderança</li>
-		</ul>
-	</section>
-	<main>
+	
+	<main class="main">
 		<section class="lado-esquerdo">
 			<article>
 				<p>
@@ -128,7 +134,9 @@
 	</main>
 
 
-	<footer id="rodape">Rodapé</footer>
+	<footer class="footer">
+		<p>Desenvolvido por <a href="https://github.com/douglas-ssouza">Douglas Souza</a> com HTML e CSS</p>
+	</footer>
 
 </body>
 
