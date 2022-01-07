@@ -51,7 +51,6 @@ section {
   background-color: #DADADA;
   border-radius: 15px;
   box-shadow: 2px 2px 2px #DADADA;
-  padding: 2%;
 }
 
 .profile {
@@ -143,5 +142,21 @@ section {
     width: 100%;
     display: flex;
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 1279px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  .main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .lado-direito {
+    margin-top: 0;
+    margin-left: 5%;
   }
 }
