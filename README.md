@@ -19,10 +19,6 @@ Projeto realizado durante o curso de desenvolvimento web da _Trybe_. A idéia fo
 
 ---
 
-## Instalando dependencias
-
-    npm install
-
 ## Executando aplicação
 
 Para executar a aplicação basta abrir o arquivo _index.html_ em seu navegador.
